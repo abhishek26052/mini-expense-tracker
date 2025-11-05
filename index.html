@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <div class="logo-name">
+                <img style="height: 8vh;" src="/mini-expense-tracker/assets/expense_manager.svg" alt="">
+                <h3>Mini Expense Tracker</h3>
+            </div>
+            <div class="expense-price">
+                <p id="total-amount">Total Amount :- </p>
+                <div id="remain-div"><p>Remaining Amount :-</p>
+                <p id="remaining-amount"></p><div>
+
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="card">
+            <div class="set-amount-sec">
+                <h4>Set Total Amount :- </h4>
+                <input class="input" type="number" id="input-total-amount" placeholder="Enter Total Amount">
+                <button class="btn" class="input" id="total-amount-btn">Add</button>
+            </div>
+            <div class="input-section">
+                <input class="input" type="text" name="description " id="description" placeholder="Enter Description">
+                <input class="input" type="number" name="amount" id="amount" placeholder="Enter Amount">
+            </div>
+            <div class="add-btn-sec">
+                <button class="btn" class="input" id="add-btn">Add</button>
+            </div>
+
+            <div class="expense-list">
+                <ul id="unorderedList"> </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h4 style="color: white;">Made with ❤️ by Abhishek</h4>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

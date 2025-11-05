@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(61, 57, 57);
+}
+
+.nav {
+    display: flex;
+    background-color: #fee715ff;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    height: 9vh
+}
+
+.logo-name {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.expense-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7vw;
+    font-size: large;
+    font-weight: 700;
+}
+#remain-div{
+    display: flex;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 50vw;
+    height: 80vh;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fee715ff;
+}
+
+
+
+.input {
+    margin-top: 10px;
+    padding: 10px;
+    height: 5vh;
+    font-size: medium;
+    font-weight: 600;
+    background-color: rgb(255, 241, 241);
+    color: rgb(22, 22, 22);
+    outline: none;
+    border-radius: 3px;
+    border: none;
+}
+
+#amount {
+    width: 35vh;
+
+}
+
+#description {
+    width: 55vh;
+
+}
+
+#add-btn {
+    width: 8vw;
+    height: 6vh;
+    margin-bottom: 20px;
+
+}
+
+ul {
+    font-family: cursive;
+    font-size: medium;
+    list-style: decimal-leading-zero;
+    max-height: 40vh;
+    overflow-y: auto;
+    width: 90%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.set-amount-sec {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.set-amount-sec h4 {
+    font-size: large;
+
+}
+
+#total-amount-btn {
+    width: 8vw;
+    height: 8vh;
+}
+
+.expense-list {
+    width: 90%;
+    max-height: 40vh;
+    overflow-y: auto;
+    /* sirf vertical scroll */
+    overflow-x: hidden;
+    /* horizontal scroll hata diya */
+    margin-top: 10px;
+    padding-right: 5px;
+}
+
+.expense-list li {
+    display: flex;
+    justify-content: space-between;
+    /* desc left, amount right */
+    align-items: center;
+    background: rgb(255, 249, 200);
+    margin: 6px 0;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-family: cursive;
+    font-size: medium;
+    list-style: none;
+    word-wrap: break-word;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+#delete-btn{
+        font-weight: 300;
+    border-radius: 3px;
+    background-color: coral;
+    width: 50px;
+    outline: none;
+}
